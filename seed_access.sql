@@ -1,0 +1,75 @@
+/* Seed data for Vendors (20) */
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Juan Dela Cruz', '09171234567', 'Brgy. 1', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Maria Santos', '09181234567', 'Brgy. 2', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Pedro Reyes', '09191234567', 'Brgy. 3', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Ana Lopez', '09201234567', 'Brgy. 4', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Carlos Ramos', '09211234567', 'Brgy. 5', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Luz Garcia', '09221234567', 'Brgy. 6', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Rizal Mendoza', '09231234567', 'Brgy. 7', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Gloria Cruz', '09241234567', 'Brgy. 8', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Marco Polo', '09251234567', 'Brgy. 9', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Sofia Reyes', '09261234567', 'Brgy. 10', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Diego Luna', '09271234567', 'Brgy. 11', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Isabel Flores', '09281234567', 'Brgy. 12', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Tom Santos', '09291234567', 'Brgy. 13', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Jerry Lim', '09301234567', 'Brgy. 14', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Mary Ann', '09311234567', 'Brgy. 15', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Paul Cruz', '09321234567', 'Brgy. 16', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Ruth Navarro', '09331234567', 'Brgy. 17', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Kevin Tan', '09341234567', 'Brgy. 18', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Nina Gomez', '09351234567', 'Brgy. 19', Now(), Now());
+INSERT INTO Vendors (VendorName, ContactNo, Address, CreatedAt, UpdatedAt) VALUES ('Oscar Diaz', '09361234567', 'Brgy. 20', Now(), Now());
+
+/* Seed data for Stalls (20) */
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S001', 'Section A', 1000, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S002', 'Section A', 1200, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S003', 'Section A', 900,  'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S004', 'Section B', 1100, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S005', 'Section B', 1000, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S006', 'Section B', 950,  'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S007', 'Section C', 1300, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S008', 'Section C', 1250, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S009', 'Section C', 1400, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S010', 'Section D', 1500, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S011', 'Section D', 950,  'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S012', 'Section D', 1000, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S013', 'Section E', 800,  'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S014', 'Section E', 850,  'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S015', 'Section E', 900,  'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S016', 'Section F', 1100, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S017', 'Section F', 1150, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S018', 'Section F', 1200, 'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S019', 'Section G', 950,  'Available', Now(), Now());
+INSERT INTO Stalls (StallNo, Location, RentRate, Status, CreatedAt, UpdatedAt) VALUES ('S020', 'Section G', 1000, 'Available', Now(), Now());
+
+/* Seed Rentals (30) - link some vendors to stalls, set some Occupied statuses */
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (1,1,DateValue('2025-01-01'),DateValue('2025-12-31'),1000,'OR2025001',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (2,2,DateValue('2025-02-01'),DateValue('2025-12-31'),1200,'OR2025002',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (3,3,DateValue('2025-03-01'),DateValue('2025-12-31'),900,'OR2025003',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (4,4,DateValue('2025-01-15'),DateValue('2025-07-14'),1100,'OR2025004',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (5,5,DateValue('2025-04-01'),Null,1000,'OR2025005',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (6,6,DateValue('2025-01-02'),DateValue('2025-06-30'),950,'OR2025006',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (7,7,DateValue('2025-05-01'),Null,1300,'OR2025007',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (8,8,DateValue('2025-06-01'),Null,1250,'OR2025008',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (9,9,DateValue('2024-12-01'),DateValue('2025-12-01'),1400,'OR2025009',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (10,10,DateValue('2025-07-01'),Null,1500,'OR2025010',Now(),Now());
+/* Additional 20 rows to reach 30 total (repeat pattern with different IDs) */
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (11,11,DateValue('2025-01-10'),Null,950,'OR2025011',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (12,12,DateValue('2025-02-10'),Null,1000,'OR2025012',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (13,13,DateValue('2025-03-10'),Null,800,'OR2025013',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (14,14,DateValue('2025-04-10'),Null,850,'OR2025014',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (15,15,DateValue('2025-05-10'),Null,900,'OR2025015',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (16,16,DateValue('2025-06-10'),Null,1100,'OR2025016',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (17,17,DateValue('2025-07-10'),Null,1150,'OR2025017',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (18,18,DateValue('2025-08-10'),Null,1200,'OR2025018',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (19,19,DateValue('2025-09-10'),Null,950,'OR2025019',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (20,20,DateValue('2025-10-10'),Null,1000,'OR2025020',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (1,5,DateValue('2024-05-01'),DateValue('2024-12-31'),1000,'OR2024021',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (2,6,DateValue('2024-06-01'),DateValue('2024-12-31'),950,'OR2024022',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (3,7,DateValue('2024-07-01'),DateValue('2024-12-31'),1300,'OR2024023',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (4,8,DateValue('2024-08-01'),DateValue('2024-12-31'),1250,'OR2024024',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (5,9,DateValue('2024-09-01'),DateValue('2024-12-31'),1400,'OR2024025',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (6,10,DateValue('2024-10-01'),DateValue('2024-12-31'),1500,'OR2024026',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (7,11,DateValue('2024-11-01'),DateValue('2024-12-31'),950,'OR2024027',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (8,12,DateValue('2024-12-01'),DateValue('2025-03-01'),1000,'OR2024028',Now(),Now());
+INSERT INTO Rentals (VendorID, StallID, StartDate, EndDate, AmountPaid, ORNo, CreatedAt, UpdatedAt) VALUES (9,13,DateValue('2025-01-01'),DateValue('2025-03-31'),800,'OR2024029',Now(),Now());
